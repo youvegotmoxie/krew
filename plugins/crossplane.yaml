@@ -9,6 +9,12 @@ spec:
   shortDescription: A command line tool for interacting with Crossplane
   description: |
     This plugin is used for building and updating Crossplane providers
+  caveats: |
+    Usage:
+      $ kubectl crossplane
+    For additional options:
+      $ kubectl crossplane --help
+    Visit https://crossplane.io to get started. 🚀
   platforms:
   - selector:
       matchLabels:
