@@ -20,6 +20,6 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    uri: https://releases.crossplane.io/stable/current/bin/darwin_amd64/crank
-    sha256: 88210781c517414799c934cfcf8615d2c1d0a38ed7ab6f0195942cd1adcb4ffb
+    uri: https://github.com/youvegotmoxie/krew/raw/master/assets/kubectl-crossplane.tar.gz
+    sha256: 486ec85a68a034dff1f400309a8e78b2a7289b3425ad3436d4bf53b337ad904f
     bin: kubectl-crossplane
